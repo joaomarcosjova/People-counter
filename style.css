@@ -1,0 +1,67 @@
+:root {
+--primary: #000;
+--secondary: #fff;
+}
+
+    body {
+    /* background-image: url(https://i.pinimg.com/originals/38/9b/0f/389b0fc665652006be5c2a15232fdf1c.jpg); */
+    background-size: cover;
+    background-color: var(--primary);
+    color: var(--secondary); 
+    text-align: center;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    border-color: #fff;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#decrement-btn {
+    background-color: darkblue;
+}
+
+#save-btn {
+    background-color: darkgreen;
+    margin-top: 10px;
+}
+
+#mission { 
+    background-color: darkgoldenrod;
+
+}
+
+#yes {
+    background-color: darkgreen;
+}
+
+#no {
+    background-color: darkred;
+}
+
+#zero {
+    background-color: darkgoldenrod
+}
